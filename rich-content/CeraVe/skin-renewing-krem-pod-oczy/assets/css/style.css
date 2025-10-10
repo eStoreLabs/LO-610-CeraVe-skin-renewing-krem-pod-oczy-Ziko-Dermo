@@ -5,7 +5,7 @@
   line-height: 1.25;
   color: #003058;
   background-color: #ffffff;
-  max-width: 720px;
+  max-width: 990px;
   margin: auto;
   container-type: inline-size;
   container-name: es-rc-content;
@@ -621,7 +621,7 @@
 #es-rc #es-rc-content .es-cross__item__image-container:hover ~ .es-cross__item__button, #es-rc #es-rc-content .es-cross__item__image:hover ~ .es-cross__item__button {
   background-color: #673996;
 }
-@container es-rc-content (min-width: 768px) {
+@container es-rc-content (min-width: 798px) {
   #es-rc #es-rc-content .es-cross__content {
     flex-direction: row;
     align-items: flex-start;
@@ -654,5 +654,3 @@
   font-size: 11px;
   margin-block: 40px;
 }
-
-/*# sourceMappingURL=styles.css.map */
